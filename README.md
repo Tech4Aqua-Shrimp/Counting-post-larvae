@@ -8,17 +8,17 @@ The inspiration for this project stems from Bhimavaram, a village in Andhra Prad
 
 ## Features
 
-**Automated Detection**: Identifies individual shrimp seeds in images or video streams using advanced computer vision models.
+- **Automated Detection**: Identifies individual shrimp seeds in images or video streams using advanced computer vision models.
     
-**Accurate Counting**: Provides precise counts with minimal margin of error (93-96% accuracy).
+- **Accurate Counting**: Provides precise counts with minimal margin of error (93-96% accuracy).
     
-**Batch Processing**: Processes multiple images simultaneously for large-scale analysis.
+- **Batch Processing**: Processes multiple images simultaneously for large-scale analysis.
     
-**User-Friendly Web Interface**: Built using Streamlit, offering an intuitive platform for image upload and result visualization.
+- **User-Friendly Web Interface**: Built using Streamlit, offering an intuitive platform for image upload and result visualization.
     
-**Report Generation**: Exports detailed reports with count statistics and visualizations.
+- **Report Generation**: Exports detailed reports with count statistics and visualizations.
     
-**Scalable Design**: Can be extended to support mobile applications or cloud-based solutions in the future.
+- **Scalable Design**: Can be extended to support mobile applications or cloud-based solutions in the future.
 
 ## Technology Stack
 - **Programming Language**: Python 3.11
