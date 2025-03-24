@@ -68,8 +68,9 @@ pip install 'git+https://github.com/facebookresearch/detectron2.git@main#subdire
 If you need to train the model on your specific prawn species or environment:
 
 ```bash
-# Train the detection model
-python src/pipelines/training_pipeline.py
+# Train the detection model with custom data
+python src/pipelines/training_pipeline.py --data_path ./data/custom_dataset --epochs 50 --batch_size 16 --model yolov5_custom.pt
+
 ```
 
 ## Performance Metrics
