@@ -1,14 +1,24 @@
-# shrimp Seed Detection and Counting
+# Shrimp Seed Detection and Counting
 
 ## Overview
-This project implements an automated system for detecting and counting prawn seeds/larvae using computer vision techniques. The system provides accurate, real-time counting to help shrimp hatchery operators and farmers monitor population density, improve inventory management, and optimize feeding regimes.
+This project implements an automated system for detecting and counting shrimp seeds/larvae using computer vision techniques. Built as a Streamlit-based web application, it provides shrimp farmers and hatchery operators with an easy-to-use tool for real-time counting, eliminating the need for manual processes. The system is designed to improve population density monitoring, inventory management, and feeding optimization.
+
+## Vision Behind the Project
+The inspiration for this project stems from Bhimavaram, a village in Andhra Pradesh, India, where aquaculture is a primary source of livelihood. Farmers in this region often rely on manual counting of shrimp seeds before purchase, which is both time-consuming and prone to errors. This project was initiated with the vision of creating a scalable solution that could eventually evolve into a mobile application, making it even more accessible to farmers in rural areas. While this version is implemented as a web-based tool, it lays the groundwork for future enhancements that align with this vision.
 
 ## Features
-- **Automated Detection**: Identifies individual prawn seeds in images or video streams
-- **Accurate Counting**: Provides precise counts of prawn seeds with minimal margin of error
-- **Batch Processing**: Handles multiple images for large-scale analysis
-- **User-Friendly Interface**: Simple controls for image upload and result visualization
-- **Report Generation**: Creates detailed reports with count statistics
+
+**Automated Detection**: Identifies individual shrimp seeds in images or video streams using advanced computer vision models.
+    
+**Accurate Counting**: Provides precise counts with minimal margin of error (93-96% accuracy).
+    
+**Batch Processing**: Processes multiple images simultaneously for large-scale analysis.
+    
+**User-Friendly Web Interface**: Built using Streamlit, offering an intuitive platform for image upload and result visualization.
+    
+**Report Generation**: Exports detailed reports with count statistics and visualizations.
+    
+**Scalable Design**: Can be extended to support mobile applications or cloud-based solutions in the future.
 
 ## Technology Stack
 - **Programming Language**: Python 3.11
