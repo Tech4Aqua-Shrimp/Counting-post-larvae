@@ -4,9 +4,14 @@ matplotlib
 transformers
 tensorflow
 torch
-pyyaml==5.1
+pyyaml =5.1
 roboflow
--e.
+-e .
 scikit-learn
 dvc
 mlflow
+streamlit
+supervision
+opencv-python
+Pillow
+watchdog
