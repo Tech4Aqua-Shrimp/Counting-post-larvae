@@ -44,6 +44,15 @@ python app.py
 ```
 Then open your browser and navigate to `http://localhost:8501`
 
+Special installation note for detectron2:
+Since detectron2 is not available directly via pip, it should be installed separately with:
+```bash
+# For CUDA-enabled GPU:
+pip install 'gitthttps: //github.com/facebookresearch/detectron2.git'
+# For CPU-only:
+pip install 'git+https://github.com/facebookresearch/detectron2.git@main#subdirectory=projects/PointRend'
+```
+
 ## Model Training
 
 If you need to train the model on your specific prawn species or environment:
